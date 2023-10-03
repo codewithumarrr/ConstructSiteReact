@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100dvh;
+    width: 100%;
+    line-height: 1.5;
+}
+
+input, button {
+    font-family: inherit;
+    border-radius: 7px;
+}

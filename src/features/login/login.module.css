@@ -1,0 +1,93 @@
+.wrapper {
+    display: flex;
+}
+
+.wrapper > * {
+    width: 50%;
+}
+
+.loginImageSide {
+    display: grid;
+    place-items: center;
+    background:url("../../assets/building.jpeg");
+    background-size: cover;
+    background-position: center top;
+    opacity: 97%;
+}
+
+/* .loginImageSide svg{
+    box-shadow: 0 0 5px 1px rgba(0,0,0.025);
+} */
+
+
+.loginFormSide > div {
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+/* form side  */
+.loginFormSide {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    background-color: #fff;
+}
+
+.loginElements {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14.63px;
+}
+
+.loginElements > h3 {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.loginElements > p {
+    font-weight: 400;
+    color:#000;
+}
+
+/* login form  */
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formBtn {
+    width: 348px;
+    height: 41px;
+    background: #FB8134;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+}
+.formGroup input {
+    width: 348px;
+    height: 36px;
+
+    border: 1px solid #C4C4C4;
+    padding-left: 10px;
+}
+
+.formGroup label {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+
