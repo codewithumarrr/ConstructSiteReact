@@ -5,7 +5,6 @@ function Evc() {
     height: "40px",
     top: "331px",
     left: "930px",
-    // border: '1px solid black',
   };
   //enter verification code
   return (
@@ -190,25 +189,17 @@ function Evc() {
           <h3>Enter Verification Code</h3>
           <p>{/* Already have an account? <a href="#">Log In</a> */}</p>
           <form action="" className={styles.loginForm}>
-            {/* <label htmlFor="email">Email</label> */}
-            <div class="input-container">
-              <input type="text" style={inputStyles} />
-              <input type="text" style={inputStyles} />
-              <input type="text" style={inputStyles} />
-              <input type="text" style={inputStyles} />
-              <input type="text" style={inputStyles} />
-            </div>
+  <div className={styles.inputContainer}>
+    <input type="text" style={inputStyles} className={styles.inputField} />
+    <input type="text" style={inputStyles} className={styles.inputField} />
+    <input type="text" style={inputStyles} className={styles.inputField} />
+    <input type="text" style={inputStyles} className={styles.inputField} />
+    <input type="text" style={inputStyles} className={styles.inputField} />
+  </div>
 
-            {/* <div className={styles.formGroup}>
-              <label htmlFor="password">Password</label>
-              <input
-                type="password"
-                name="password"
-                placeholder="Must be at least 6 characters"
-              />
-            </div> */}
-            <input type="submit" value="Continue" className={styles.formBtn} />
-          </form>
+  <input type="submit" value="Next" className={styles.formBtn} />
+</form>
+
           <>By continuing, you agree to accept our</>
           <a href="#">Privacy Policy & Terms of Service.</a>
         </figure>
