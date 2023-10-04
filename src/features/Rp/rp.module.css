@@ -52,7 +52,7 @@
 
 .loginElements > p {
     font-weight: 400;
-    color:#000;
+    /* color:#000; */
 }
 
 /* login form  */
@@ -68,8 +68,8 @@
     height: 41px;
     background: #FB8134;
     color: #fff;
+    border: none; /* Remove the border */
     text-transform: uppercase;
-    border:none;
 }
 
 .formGroup {
@@ -91,4 +91,21 @@
     letter-spacing: -1px;
 }
 
+.inputContainer {
+    display: flex;
+  justify-content: center; /* Center the input elements horizontally */
+  gap: 10px;  /* To evenly space the input elements */
 
+  }
+
+  .inputField {
+    margin-bottom: 10px; /* Adjust the margin size as needed */
+    border: 1px solid #C4C4C4;
+    outline: none; /* Remove the outline when focused (optional) */
+  }
+  
+  /* Apply your input styles here */
+  .input-container input[type="text"] {
+    /* Your input styles */
+  }
+  
