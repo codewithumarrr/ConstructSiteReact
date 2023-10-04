@@ -1,13 +1,7 @@
-import Dashboard from "./features/dashboard/dashboard";
-import Login from "./features/login/login";
+import AppRoute from "./layout/AppRoute";
 
 function App() {
-  return (
-    <>
-      {/* <Login /> */}
-      <Dashboard />
-    </>
-  );
+  return <AppRoute />;
 }
 
 export default App;

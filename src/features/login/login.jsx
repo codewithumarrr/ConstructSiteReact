@@ -1,5 +1,5 @@
 import styles from "./login.module.css";
-function Login() {
+function LoginPage() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.loginImageSide}>
@@ -205,4 +205,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginPage;
