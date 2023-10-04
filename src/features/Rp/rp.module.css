@@ -92,14 +92,14 @@
 }
 
 .inputContainer {
-    display: flex;
+  display: flex;
   justify-content: center; /* Center the input elements horizontally */
   gap: 10px;  /* To evenly space the input elements */
 
   }
 
   .inputField {
-    margin-bottom: 10px; /* Adjust the margin size as needed */
+    margin-bottom: 0px; /* Adjust the margin size as needed */
     border: 1px solid #C4C4C4;
     outline: none; /* Remove the outline when focused (optional) */
   }
@@ -107,5 +107,43 @@
   /* Apply your input styles here */
   .input-container input[type="text"] {
     /* Your input styles */
+  }
+
+  .contactInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px; /* Adjust the margin as needed */
+    /* Add any other styles you want for the contact input */
+  }
+  
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .contactInputContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .countryCodeSelect {
+    flex: 1; /* Make the country code dropdown take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .contactInput {
+    flex: 3; /* Make the contact input take up available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    /* Add any other styles you want for the contact input */
   }
   

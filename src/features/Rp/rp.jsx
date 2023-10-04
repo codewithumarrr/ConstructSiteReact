@@ -187,40 +187,47 @@ function Rp() {
           </p>
           <form action="" className={styles.loginForm}>
             <div className={styles.formGroup}>
-              <label htmlFor="email">Full Name</label>
-              <input type="text" name="fname" />
+              <label htmlFor="Full Name">Full Name</label>
+              <input type="text" name="Full Name" />
             </div>
             <div className={styles.formGroup}>
               <label htmlFor="profession">Profession</label>
-              <select name="profession" id="profession">
+              <select
+                name="profession"
+                id="profession"
+                className={styles.inputField}
+              >
                 <option value="doctor">Doctor</option>
                 <option value="engineer">Engineer</option>
                 <option value="teacher">Teacher</option>
               </select>
             </div>
-
             <div className={styles.formGroup}>
-              <label htmlFor="email">Professionals body associated with</label>
-              <input type="text" name="fname" />
+              <label htmlFor="profession">
+                Professionals body associated with
+              </label>
+              <input type="text" name="profession1" />
             </div>
             <div className={styles.formGroup}>
               <label htmlFor="email">Registration number</label>
-              <input type="text" name="fname" />
+              <input type="number" name="email" />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="email">Company name</label>
-              <input type="text" name="fname" />
+              <label htmlFor="email">Company Name</label>
+              <input type="text" name="email" />
             </div>
-            {/* <div className={styles.formGroup}>
-              <label htmlFor="password">Password</label>
+            <div className={styles.formGroup}>
+              <label htmlFor="contactNumber">Contact Number</label>
               <input
-                type="password"
-                name="password"
-                placeholder="Must be at least 6 characters"
+                type="text"
+                name="contactNumber"
+                className={styles.contactInput}
+                value="+23"
               />
-            </div> */}
+            </div>
             <input type="submit" value="Continue" className={styles.formBtn} />
           </form>
+
           <>By continuing, you agree to accept our</>
           <a href="#">Privacy Policy & Terms of Service.</a>
         </figure>
