@@ -1,7 +1,12 @@
 import AppRoute from "./layout/AppRoute";
 
 function App() {
-  return <AppRoute />;
+  return (
+    <>
+      {/* <Login /> */}
+      <Dashboard />
+    </>
+  );
 }
 
 export default App;
